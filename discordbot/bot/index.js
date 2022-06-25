@@ -1,6 +1,6 @@
 // Require the necessary discord.js classes
 const { Client, Intents, MessageActionRow, MessageButton } = require('discord.js');
-const {token}= require('../config.json');
+const {token}= require('../../config.json');
 const {TicTacToe}=require('./databaseObject.js');
 
 
